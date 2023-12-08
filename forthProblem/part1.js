@@ -10,7 +10,8 @@ const solve = () => {
             return;
         }
 
-        const cards = data.split("\n"); // Split text into lines
+        const cards = data.split("\n"); // split text into lines
+
         cards.forEach((line) => {
             let count = 0;
             let i = 0;
